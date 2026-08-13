@@ -19,8 +19,9 @@ The site also links to the brand profile [@bambi_nailssss](https://www.instagram
 
 - `index.html` - Main static landing page
 - `featured.jpg` - Real featured custom nail-set photo
+- `Bambi Images/` - Real logo and work images used for the portfolio carousel
 - `styles.css` - Responsive pink, white, and gold visual design
-- `script.js` - Mobile navigation and header interactions
+- `script.js` - Mobile navigation, header interactions, and carousel controls
 - `render.yaml` - Render static site configuration
 
 ## Deploy on Render
