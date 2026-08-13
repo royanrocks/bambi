@@ -18,8 +18,7 @@ The site also links to the brand profile [@bambi_nailssss](https://www.instagram
 ## Files
 
 - `index.html` - Main static landing page
-- `logo.svg` - Recreated round Bambi Nails Studio logo
-- `featured-nail-set.svg` - Featured custom nail-set artwork based on the supplied design photo
+- `featured.jpg` - Real featured custom nail-set photo
 - `styles.css` - Responsive pink, white, and gold visual design
 - `script.js` - Mobile navigation and header interactions
 - `render.yaml` - Render static site configuration
