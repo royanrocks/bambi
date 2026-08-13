@@ -5,7 +5,7 @@ Static website for Nails By Bambi, a pink, white, and gold custom press-on nail 
 ## Profile details used
 
 - Brand: NailsByBambi / Nails By Bambi
-- Location: Bridgeport and Stamford, CT
+- Location: Bridgeport and Stratford, CT
 - Specialty: Custom press-on nails
 - Instagram: [@bambi_nailssss](https://www.instagram.com/bambi_nailssss/)
 
