@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 660" role="img" aria-labelledby="title desc">
+  <title id="title">Featured Nails By Bambi press-on nail set</title>
+  <desc id="desc">A red, pink, navy, black, and white custom press-on nail set with web and flame-inspired details.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#f8ede6"/>
+      <stop offset="1" stop-color="#efe2da"/>
+    </linearGradient>
+    <linearGradient id="pinkNail" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#f9c8d7"/>
+      <stop offset="0.7" stop-color="#c87487"/>
+      <stop offset="1" stop-color="#7b232f"/>
+    </linearGradient>
+    <linearGradient id="redBlack" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#09080e"/>
+      <stop offset="0.45" stop-color="#b01824"/>
+      <stop offset="1" stop-color="#05050b"/>
+    </linearGradient>
+    <linearGradient id="navy" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#0d1b3f"/>
+      <stop offset="0.65" stop-color="#193d82"/>
+      <stop offset="1" stop-color="#071022"/>
+    </linearGradient>
+    <filter id="shadow" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="18" stdDeviation="14" flood-color="#4a1f28" flood-opacity="0.25"/>
+    </filter>
+    <clipPath id="nail">
+      <path d="M0 114C0 48 28 0 66 0s66 48 66 114v172c0 27-20 48-44 48H44c-24 0-44-21-44-48Z"/>
+    </clipPath>
+  </defs>
+  <rect width="980" height="660" rx="44" fill="url(#bg)"/>
+  <g opacity="0.52">
+    <path d="M84 180c254-118 544-114 810 4" fill="none" stroke="#fffaf5" stroke-width="28" stroke-linecap="round"/>
+    <path d="M96 480c252-106 534-104 790 2" fill="none" stroke="#fffaf5" stroke-width="28" stroke-linecap="round"/>
+  </g>
+
+  <g transform="translate(78 70)" filter="url(#shadow)">
+    <g transform="translate(0 35) rotate(-12)">
+      <path d="M0 114C0 48 28 0 66 0s66 48 66 114v172c0 27-20 48-44 48H44c-24 0-44-21-44-48Z" fill="url(#pinkNail)"/>
+      <g clip-path="url(#nail)">
+        <path d="M-6 164 132 70v272H-6Z" fill="url(#redBlack)" opacity="0.92"/>
+        <path d="M12 128c35 25 70 57 103 101M4 216c48-18 84-41 123-80" stroke="#f7f0ea" stroke-width="8" fill="none"/>
+        <path d="M30 167c21 14 42 33 63 56M22 208c28-10 51-25 76-49" stroke="#101016" stroke-width="6" fill="none"/>
+      </g>
+    </g>
+
+    <g transform="translate(160 0) rotate(2)">
+      <path d="M0 114C0 48 28 0 66 0s66 48 66 114v172c0 27-20 48-44 48H44c-24 0-44-21-44-48Z" fill="url(#pinkNail)"/>
+      <g clip-path="url(#nail)" stroke="#f7f0ea" stroke-width="8" fill="none">
+        <path d="M66 72v224M8 154h116M20 111l94 122M114 111 20 233"/>
+        <path d="M34 188c19-18 44-26 64-2"/>
+      </g>
+    </g>
+
+    <g transform="translate(324 24) rotate(-5)">
+      <path d="M0 114C0 48 28 0 66 0s66 48 66 114v172c0 27-20 48-44 48H44c-24 0-44-21-44-48Z" fill="url(#navy)"/>
+      <g clip-path="url(#nail)">
+        <path d="M0 0h58v334H0Z" fill="url(#pinkNail)"/>
+        <path d="M76 0h56v334H76Z" fill="#b01927"/>
+        <path d="M28 126c34 34 55 73 71 123M16 212c42-29 75-59 98-102" stroke="#f7f0ea" stroke-width="7" fill="none"/>
+      </g>
+    </g>
+
+    <g transform="translate(488 0) rotate(8)">
+      <path d="M0 114C0 48 28 0 66 0s66 48 66 114v172c0 27-20 48-44 48H44c-24 0-44-21-44-48Z" fill="url(#pinkNail)"/>
+      <g clip-path="url(#nail)">
+        <path d="M0 96 132 42v292H0Z" fill="url(#redBlack)" opacity="0.94"/>
+        <path d="M26 126c38 28 65 65 84 110M20 230c44-28 72-58 94-101" stroke="#f8efe8" stroke-width="8" fill="none"/>
+        <path d="M20 128h94M14 181h111" stroke="#111018" stroke-width="6"/>
+      </g>
+    </g>
+
+    <g transform="translate(652 36) rotate(12)">
+      <path d="M0 114C0 48 28 0 66 0s66 48 66 114v172c0 27-20 48-44 48H44c-24 0-44-21-44-48Z" fill="url(#pinkNail)"/>
+      <g clip-path="url(#nail)">
+        <path d="M-2 150 132 88v246H-2Z" fill="url(#redBlack)" opacity="0.92"/>
+        <path d="M16 142c38 24 71 55 99 96M12 223c47-27 81-57 111-98" stroke="#f7f0ea" stroke-width="8" fill="none"/>
+        <path d="M26 184c18 12 34 28 49 49" stroke="#101016" stroke-width="6" fill="none"/>
+      </g>
+    </g>
+  </g>
+
+  <g transform="translate(98 345)" filter="url(#shadow)">
+    <g transform="translate(0 30) rotate(12)">
+      <path d="M0 114C0 48 28 0 66 0s66 48 66 114v172c0 27-20 48-44 48H44c-24 0-44-21-44-48Z" fill="url(#pinkNail)"/>
+      <g clip-path="url(#nail)">
+        <path d="M-4 104 132 34v300H-4Z" fill="url(#redBlack)" opacity="0.96"/>
+        <path d="M10 125c39 27 76 64 108 116M8 218c43-28 80-61 113-102" stroke="#f7f0ea" stroke-width="8" fill="none"/>
+      </g>
+    </g>
+
+    <g transform="translate(166 0) rotate(-7)">
+      <path d="M0 114C0 48 28 0 66 0s66 48 66 114v172c0 27-20 48-44 48H44c-24 0-44-21-44-48Z" fill="url(#pinkNail)"/>
+      <g clip-path="url(#nail)" stroke="#f7f0ea" stroke-width="8" fill="none">
+        <path d="M66 62v238M9 151h114M20 98l94 138M114 98 20 236"/>
+        <path d="M25 192c29-24 57-22 84 2"/>
+      </g>
+    </g>
+
+    <g transform="translate(330 26) rotate(5)">
+      <path d="M0 114C0 48 28 0 66 0s66 48 66 114v172c0 27-20 48-44 48H44c-24 0-44-21-44-48Z" fill="url(#pinkNail)"/>
+      <g clip-path="url(#nail)">
+        <path d="M0 166 132 88v246H0Z" fill="url(#redBlack)" opacity="0.95"/>
+        <path d="M20 150c38 23 70 52 96 88M15 236c43-30 78-65 105-106" stroke="#f7f0ea" stroke-width="8" fill="none"/>
+      </g>
+    </g>
+
+    <g transform="translate(494 0) rotate(-4)">
+      <path d="M0 114C0 48 28 0 66 0s66 48 66 114v172c0 27-20 48-44 48H44c-24 0-44-21-44-48Z" fill="url(#navy)"/>
+      <g clip-path="url(#nail)">
+        <path d="M0 0h60v334H0Z" fill="url(#pinkNail)"/>
+        <path d="M76 0h56v334H76Z" fill="#b01927"/>
+        <path d="M24 128c33 33 58 74 76 123M18 218c36-30 68-64 94-106" stroke="#f7f0ea" stroke-width="7" fill="none"/>
+      </g>
+    </g>
+
+    <g transform="translate(660 30) rotate(-13)">
+      <path d="M0 114C0 48 28 0 66 0s66 48 66 114v172c0 27-20 48-44 48H44c-24 0-44-21-44-48Z" fill="url(#pinkNail)"/>
+      <g clip-path="url(#nail)">
+        <path d="M0 124 132 42v292H0Z" fill="url(#redBlack)" opacity="0.96"/>
+        <path d="M18 124c39 25 72 59 98 105M15 220c46-27 82-60 111-101" stroke="#f7f0ea" stroke-width="8" fill="none"/>
+        <path d="M31 160c23 18 41 38 55 62" stroke="#101016" stroke-width="6" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -503,6 +503,52 @@ h3 {
   font-size: 1.08rem;
 }
 
+.featured-set {
+  display: grid;
+  grid-template-columns: minmax(0, 0.78fr) minmax(320px, 1fr);
+  align-items: center;
+  gap: 28px;
+  padding-top: 0;
+}
+
+.featured-set-copy,
+.featured-set-media {
+  border: 1px solid rgba(201, 155, 66, 0.2);
+  border-radius: var(--radius-lg);
+  background: rgba(255, 255, 255, 0.76);
+  box-shadow: 0 18px 42px rgba(152, 58, 104, 0.1);
+}
+
+.featured-set-copy {
+  padding: clamp(28px, 5vw, 48px);
+}
+
+.featured-set-copy p:last-child {
+  margin-bottom: 0;
+  color: var(--muted);
+  font-size: 1.06rem;
+}
+
+.featured-set-media {
+  margin: 0;
+  overflow: hidden;
+}
+
+.featured-set-media img {
+  width: 100%;
+  background: var(--cream);
+}
+
+.featured-set-media figcaption {
+  border-top: 1px solid rgba(201, 155, 66, 0.16);
+  color: var(--pink-700);
+  font-size: 0.82rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  padding: 16px 20px;
+  text-transform: uppercase;
+}
+
 .profile-section {
   display: grid;
   grid-template-columns: minmax(280px, 0.58fr) minmax(0, 1fr);
@@ -797,6 +843,7 @@ h3 {
   }
 
   .intro-section,
+  .featured-set,
   .profile-section,
   .services {
     grid-template-columns: 1fr;
