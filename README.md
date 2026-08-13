@@ -1,6 +1,13 @@
 # Nails By Bambi
 
-Static website for Nails By Bambi, a pink, white, and gold nail brand landing page.
+Static website for Nails By Bambi, a pink, white, and gold custom press-on nail brand landing page.
+
+## Profile details used
+
+- Brand: NailsByBambi / Nails By Bambi
+- Location: Bridgeport and Stamford, CT
+- Specialty: Custom press-on nails
+- Instagram: [@bambi_nailssss](https://www.instagram.com/bambi_nailssss/)
 
 ## Appointment requests
 
@@ -11,6 +18,8 @@ The site also links to the brand profile [@bambi_nailssss](https://www.instagram
 ## Files
 
 - `index.html` - Main static landing page
+- `logo.svg` - Recreated round Bambi Nails Studio logo
+- `featured-nail-set.svg` - Featured custom nail-set artwork based on the supplied design photo
 - `styles.css` - Responsive pink, white, and gold visual design
 - `script.js` - Mobile navigation and header interactions
 - `render.yaml` - Render static site configuration

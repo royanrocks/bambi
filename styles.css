@@ -113,17 +113,16 @@ img {
 }
 
 .brand-mark {
-  display: grid;
+  display: block;
   width: 44px;
   height: 44px;
-  place-items: center;
   border: 1px solid rgba(201, 155, 66, 0.45);
   border-radius: 50%;
   background:
     linear-gradient(135deg, rgba(255, 255, 255, 0.95), rgba(255, 232, 241, 0.9)),
     var(--white);
-  color: var(--pink-700);
   box-shadow: 0 12px 28px rgba(201, 155, 66, 0.16);
+  object-fit: cover;
 }
 
 .nav-links {
@@ -357,9 +356,17 @@ h3 {
   background: var(--pink-200);
 }
 
+.phone-logo {
+  width: 142px;
+  height: 142px;
+  margin: 24px auto -18px;
+  border-radius: 50%;
+  box-shadow: 0 18px 36px rgba(152, 58, 104, 0.16);
+}
+
 .nail-preview {
-  min-height: 310px;
-  padding: 40px 22px;
+  min-height: 262px;
+  padding: 46px 22px 32px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   align-items: end;
@@ -494,6 +501,118 @@ h3 {
 .intro-section p:last-child {
   color: var(--muted);
   font-size: 1.08rem;
+}
+
+.featured-set {
+  display: grid;
+  grid-template-columns: minmax(0, 0.78fr) minmax(320px, 1fr);
+  align-items: center;
+  gap: 28px;
+  padding-top: 0;
+}
+
+.featured-set-copy,
+.featured-set-media {
+  border: 1px solid rgba(201, 155, 66, 0.2);
+  border-radius: var(--radius-lg);
+  background: rgba(255, 255, 255, 0.76);
+  box-shadow: 0 18px 42px rgba(152, 58, 104, 0.1);
+}
+
+.featured-set-copy {
+  padding: clamp(28px, 5vw, 48px);
+}
+
+.featured-set-copy p:last-child {
+  margin-bottom: 0;
+  color: var(--muted);
+  font-size: 1.06rem;
+}
+
+.featured-set-media {
+  margin: 0;
+  overflow: hidden;
+}
+
+.featured-set-media img {
+  width: 100%;
+  background: var(--cream);
+}
+
+.featured-set-media figcaption {
+  border-top: 1px solid rgba(201, 155, 66, 0.16);
+  color: var(--pink-700);
+  font-size: 0.82rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  padding: 16px 20px;
+  text-transform: uppercase;
+}
+
+.profile-section {
+  display: grid;
+  grid-template-columns: minmax(280px, 0.58fr) minmax(0, 1fr);
+  align-items: center;
+  gap: 24px;
+  padding-top: 0;
+}
+
+.profile-logo-card,
+.profile-copy-card {
+  border: 1px solid rgba(201, 155, 66, 0.2);
+  border-radius: var(--radius-lg);
+  background: rgba(255, 255, 255, 0.76);
+  box-shadow: 0 18px 42px rgba(152, 58, 104, 0.1);
+}
+
+.profile-logo-card {
+  display: grid;
+  min-height: 420px;
+  place-items: center;
+  padding: 34px;
+}
+
+.profile-logo-card img {
+  width: min(100%, 310px);
+  border-radius: 50%;
+}
+
+.profile-copy-card {
+  padding: clamp(28px, 5vw, 54px);
+}
+
+.profile-copy-card h2 {
+  max-width: 740px;
+}
+
+.profile-facts {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+  margin-top: 32px;
+}
+
+.profile-facts div {
+  border: 1px solid rgba(201, 155, 66, 0.18);
+  border-radius: var(--radius-sm);
+  background: var(--pink-50);
+  padding: 18px;
+}
+
+.profile-facts span {
+  display: block;
+  color: var(--gold);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.profile-facts strong {
+  display: block;
+  margin-top: 5px;
+  color: var(--pink-700);
+  line-height: 1.25;
 }
 
 .section-heading {
@@ -724,6 +843,8 @@ h3 {
   }
 
   .intro-section,
+  .featured-set,
+  .profile-section,
   .services {
     grid-template-columns: 1fr;
   }
@@ -792,6 +913,11 @@ h3 {
     gap: 10px;
   }
 
+  .phone-logo {
+    width: 116px;
+    height: 116px;
+  }
+
   .nail,
   .nail-three {
     min-height: 150px;
@@ -808,6 +934,14 @@ h3 {
 
   .look-card {
     min-height: auto;
+  }
+
+  .profile-logo-card {
+    min-height: 300px;
+  }
+
+  .profile-facts {
+    grid-template-columns: 1fr;
   }
 
   .booking {
